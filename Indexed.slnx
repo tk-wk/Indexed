@@ -1,3 +1,7 @@
 <Solution>
-  <Project Path="Indexed.csproj" />
+  <Project Path="../Indexed.Core/Indexed.Core.csproj" />
+  <Project Path="../Indexed.Data/Indexed.Data.csproj" />
+  <Project Path="Indexed.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
 </Solution>
