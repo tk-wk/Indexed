@@ -1,7 +1,7 @@
 <Solution>
-  <Project Path="../Indexed.Core/Indexed.Core.csproj" />
-  <Project Path="../Indexed.Data/Indexed.Data.csproj" />
+  <Project Path="Indexed.Core/Indexed.Core.csproj" Id="fb4154df-a40c-4e20-9c29-6de21dfc6a6e" />
   <Project Path="Indexed.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
+  <Project Path="Indexed.Data/Indexed.Data.csproj" Id="c2db4183-bb1e-4c53-a5de-3cd00dc86d0d" />
 </Solution>
